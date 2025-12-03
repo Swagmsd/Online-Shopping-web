@@ -7,6 +7,16 @@
     margin: auto;  
 }
 
+.bgImg {
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
+     url(https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/home-hero-bg.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
  .contentBox {
         height: 450px;
         width: 90%;
@@ -55,7 +65,7 @@
 @media screen and (max-width:1275px){
     .adImg {
 
-   margin-top: -570px;
+   margin-top: -100vh;
 
 }
 
@@ -73,24 +83,27 @@
    width: 0;
 }
 .bg2 {
-   height: 80vh;
+   height: 60vh;
 }
 
 .adImg {
    
    display: grid ;
    grid-template-columns:1fr;
-   margin-top: -580px;
-   height: 95vh;
+   margin-top: -95vh;
+   height: 70vh;
+   display: grid;
+   align-items: center;
 }
 
 .imbox {
    width: 0; 
 }
  .adcontentbox{
-   height: 55vh;
-   width: 60%;
+   height: 45vh;
+   width: 70%;
    margin: 0 auto;
+   margin-top: -10vh;
  }
 
  .element-btn{
@@ -306,23 +319,15 @@
 
 .final-page {
    height: 200vh;
-   /* width: 100%;
-   background-color: black;
-   display: grid; */
 }
 
 .final-container {
-   /* height: 100%;
-   width: 95%;
-   border-bottom: solid 1px white;
-   margin: 0 auto; */
    display: grid;
    grid-template-columns: 1fr;
 }
 
 .final-box1 img {
    width: 200px;
-   /* color: white; */
    margin-top: 0%;
 }
 
@@ -371,5 +376,10 @@
 .or-icn1,.or-icn2,.or-icn3,.or-icn4{
    margin-top: 5%;
 }
+
+.headBar3 {
+        width: 50%;
+      
+    }
    
 }
