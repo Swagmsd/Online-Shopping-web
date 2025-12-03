@@ -81,7 +81,7 @@ This project is open-source under the MIT License.
 👤 Author
 
 Your Name
-GitHub: []
+GitHub: [https://github.com/Swagmsd]
 Email: [swagmsd@gmail.com]
 
 
